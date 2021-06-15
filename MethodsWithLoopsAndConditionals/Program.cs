@@ -21,6 +21,11 @@ namespace MethodsWithLoopsAndConditionals
 			}
 		}
 
+		public static bool IsNumberEqual(int a, int b)
+		{
+			return a == b;
+		}
+
 		public static void IsNumberEven()
 		{
 			Console.WriteLine("Type a number and I'll tell you if it's even or odd.");
@@ -114,6 +119,8 @@ namespace MethodsWithLoopsAndConditionals
 		{
 			TwoThousandIntegers();
 			ByThrees();
+			IsNumberEqual(5, 5);
+			IsNumberEqual(4, 2);
 			IsNumberEven();
 			IsPositiveNegative();
 			CanVote();
